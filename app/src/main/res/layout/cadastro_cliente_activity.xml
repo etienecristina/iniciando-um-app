@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <Button
-        android:id="@+id/bottonProximo"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:backgroundTint="@color/cardview_dark_background"
-        android:text="próximo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/senha" />
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <EditText
-        android:id="@+id/telefone"
-        android:layout_width="264dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="64dp"
-        android:ems="10"
-        android:hint="Email"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usuario" />
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="CADASTRE-SE"
+            android:textAlignment="center"
+            android:textSize="32sp" />
 
-    <EditText
-        android:id="@+id/usuario"
-        android:layout_width="264dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="64dp"
-        android:ems="10"
-        android:hint="Nome"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login" />
 
-    <EditText
-        android:id="@+id/senha"
-        android:layout_width="264dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="64dp"
-        android:ems="10"
-        android:hint="Telefone"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/telefone" />
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_default"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName" />
 
-    <TextView
-        android:id="@+id/login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:text="CADASTRE-SE"
-        android:textSize="32sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_default"
+            android:ems="10"
+            android:hint="Nome"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_default"
+            android:ems="10"
+            android:hint="Telefone"
+            android:inputType="textPersonName" />
+
+
+        <Button
+            android:id="@+id/bottonProximo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_default"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="próximo" />
+
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
