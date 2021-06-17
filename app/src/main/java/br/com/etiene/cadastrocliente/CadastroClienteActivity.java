@@ -18,7 +18,7 @@ public class CadastroClienteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cadastro_cliente_activity);
 
-        bottonProximo = findViewById(R.id.bottonProximo);{
+        bottonProximo = findViewById(R.id.botao);{
         bottonProximo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
