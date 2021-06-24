@@ -21,14 +21,16 @@ public class CadastroClienteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cadastro_cliente_activity);
 
+        setTitle(R.string.titulo);
+
         bottonProximo = findViewById(R.id.botao);
+
         bottonProximo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
             }
         });
-
 
 
     }
