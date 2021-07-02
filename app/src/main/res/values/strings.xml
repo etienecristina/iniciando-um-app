@@ -2,4 +2,7 @@
     <string name="app_name">Cadastro Cliente</string>
     <string name="titulo">Login no Sistema</string>
     <string name="botaoProximo">Próximo</string>
+    <string name="nome">Nome</string>
+    <string name="email">"Email"</string>
+    <string name="telefone">Telefone</string>
 </resources>

@@ -3,4 +3,7 @@
     <string name="app_name">Customer Registration</string>
     <string name="titulo">System Login</string>
     <string name="botaoProximo">Next</string>
+    <string name="nome">"Name"</string>
+    <string name="email">"Email"</string>
+    <string name="telefone">"Telephone"</string>
    </resources>

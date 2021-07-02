@@ -3,4 +3,7 @@
         <string name="app_name">Registro de Cliente</string>
         <string name="titulo">inicio de sesión del sistema</string>
         <string name="botaoProximo">Siguiente</string>
+    <string name="nome">"Nombre"</string>
+    <string name="email">"Email"</string>
+    <string name="telefone">Teléfono</string>
 </resources>
