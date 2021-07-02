@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Registro de Cliente</string>
+        <string name="titulo">inicio de sesión del sistema</string>
+        <string name="botaoProximo">Siguiente</string>
+</resources>
